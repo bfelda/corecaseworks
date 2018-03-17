@@ -1,0 +1,97 @@
+@charset "utf-8";
+.Bens_Style {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 1.7em;
+	color: #666666;
+	border-right-width: medium;
+	border-bottom-width: medium;
+	border-left-width: medium;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #999999;
+	border-bottom-color: #999999;
+	border-left-color: #999999;
+	padding: 7px;
+	background-color: #CCCCCC;
+}
+.Bens_Style2 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	color: #666666;
+	border-right-width: medium;
+	border-left-width: medium;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #999999;
+	border-left-color: #999999;
+	font-variant: small-caps;
+}
+.Bens_Style3 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: 1.7em;
+	color: #666666;
+	font-variant: normal;
+	background-color: #CCCCCC;
+	padding: 10px;
+	text-align: left;
+	border: thick solid #999999;
+	margin: 0px;
+	background-image: url(../Images/pics/corefx_BG.gif);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.Bens_email {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-style: normal;
+	line-height: 1.7em;
+	color: #666666;
+}
+.Bens_Styledark {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 1.7em;
+	color: #333333;
+	padding: 7px;
+	background-color: #999999;
+	font-weight: normal;
+	border: thin solid #666666;
+	text-align: left;
+}
+.Bens_Stylegreen {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 1.7em;
+	color: #333333;
+	padding: 7px;
+	background-color: #93926C;
+	font-weight: normal;
+	border: thin solid #777657;
+}
+.Bens_Stylelinks {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 1.7px;
+	color: #999999;
+	border-right-width: medium;
+	border-left-width: medium;
+	border-right-style: none;
+	border-left-style: solid;
+	border-right-color: #999999;
+	border-left-color: #999999;
+	font-variant: normal;
+	text-align: left;
+	vertical-align: middle;
+	background-position: left;
+	padding: 5px;
+}
