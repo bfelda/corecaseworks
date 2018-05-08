@@ -8,7 +8,6 @@
 <!-- TemplateEndEditable -->
 <!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
 <style type="text/css"> 
-<!-- 
 body  {
 	font: 100% Verdana, Arial, Helvetica, sans-serif;
 	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
@@ -99,7 +98,6 @@ body  {
 	font-size: xx-large;
 	color: #666666;
 }
---> 
 </style>
 <!--[if IE 5]>
 <style type="text/css"> 
@@ -128,59 +126,8 @@ body  {
 	font-size: medium;
 }
 .style15 {font-size: 16px}
--->
 </style>
-<script type="text/javascript">
-<!--
-function MM_preloadImages() { //v3.0
-  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-}
 
-function MM_findObj(n, d) { //v4.01
-  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
-  if(!x && d.getElementById) x=d.getElementById(n); return x;
-}
-
-function MM_nbGroup(event, grpName) { //v6.0
-  var i,img,nbArr,args=MM_nbGroup.arguments;
-  if (event == "init" && args.length > 2) {
-    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
-      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
-      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
-      nbArr[nbArr.length] = img;
-      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
-        if (!img.MM_up) img.MM_up = img.src;
-        img.src = img.MM_dn = args[i+1];
-        nbArr[nbArr.length] = img;
-    } }
-  } else if (event == "over") {
-    document.MM_nbOver = nbArr = new Array();
-    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
-      if (!img.MM_up) img.MM_up = img.src;
-      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
-      nbArr[nbArr.length] = img;
-    }
-  } else if (event == "out" ) {
-    for (i=0; i < document.MM_nbOver.length; i++) {
-      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
-  } else if (event == "down") {
-    nbArr = document[grpName];
-    if (nbArr)
-      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
-    document[grpName] = nbArr = new Array();
-    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
-      if (!img.MM_up) img.MM_up = img.src;
-      img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
-      nbArr[nbArr.length] = img;
-  } }
-}
-//-->
-</script>
 </head>
 
 <body class="twoColFixRtHdr" onload="MM_preloadImages('../Assets/Images/pics/buttons/Home Page/products_down.gif','../Assets/Images/pics/buttons/Home Page/home_down.gif','../Assets/Images/pics/buttons/Home Page/contactus_out.gif','../Assets/Images/pics/buttons/Home Page/contactus_down.gif','../Assets/Images/pics/buttons/Home Page/products_over.gif','../Assets/Images/pics/buttons/Home Page/home_over.gif')">
@@ -199,102 +146,6 @@ function MM_nbGroup(event, grpName) { //v6.0
     <h1 class="style4 style5"><span class="style8">Core Caseworks LLC products are 100% made in the USA. We are based in a suburb of Milwaukee, Wisconsin. All our metal parts are made from 1/16&quot; thick Aluminum (5052 alloy) with a protective clear anodized finish. All assemblies are first assembled in our factory to insure proper fit before being shipped to our customers. If you have any questions, or feed back, please feel free to fill out the form below, or email directly using the links below the form. Someone will get back to you within 24 hours.</span></h1>
     <h1 align="left" class="Bens_Stylelinks"> <span class="style15">Core-FX Installation Guide</span><a href="../Assets/Documents/Core-FX_Installation_GuideFull.pdf"><img src="../Assets/Images/pics/PDF.png" alt="Core-FX Installation Guide" width="54" height="54" border="0" /></a></h1>
     <p class="style4 style5">&nbsp;</p>
-    <table width="100%" border="0" cellspacing="0" cellpadding="0">
-      <tr>
-        <td height="35" background="../Assets/Images/pics/top_left.gif">&nbsp;</td>
-        <td height="35" colspan="2" bgcolor="#CCCCCC" class="Bens_Style2">&nbsp;</td>
-        <td background="../Assets/Images/pics/top_right.gif">&nbsp;</td>
-      </tr>
-      <tr bgcolor="#999999">
-        <td width="35">&nbsp;</td>
-        <td height="317" colspan="2" align="center" valign="middle" nowrap="nowrap">        
-	<form name="logform" action="process_form.asp" onSubmit="return checkvars();">
-          <table width="100%" border="0" cellspacing="0" cellpadding="5">
-            <tr>
-              <td align="right" valign="top" bgcolor="#93926C"><label for="customername">
-                <div align="right">Name:</div>
-              </label></td>
-              <td>
-                <div align="left">
-                  <input name="customername" type="text" id="customername" />
-                </div></td>
-            </tr>
-            <tr>
-              <td align="right" valign="top" bgcolor="#93926C"><label for="email">
-                <div align="right">Email Address:</div>
-              </label></td>
-              <td>
-                <div align="left">
-                  <input name="email" type="text" id="email" />
-                  </div></td>
-            </tr>
-            <tr>
-              <td align="right" valign="top" bgcolor="#93926C">How did you hear about us?</td>
-              <td><div align="left">
-                <input type="checkbox" name="checkbox" id="checkbox" />
-              Web Search</div>
-                <label for="checkbox">
-                <div align="left"></div>
-                </label></td>
-            </tr>
-            <tr>
-              <td align="right" valign="top" bgcolor="#93926C">&nbsp;</td>
-              <td><div align="left">
-<input type="checkbox" name="checkbox2" id="checkbox2" /> 
-Link from site</div>
-                <label for="checkbox2">
-                <div align="left"></div>
-                </label></td>
-            </tr>
-            <tr>
-              <td align="right" valign="top" bgcolor="#93926C"><label for="comments"></label></td>
-              <td></label>
-                <div align="left">
-                  <input type="checkbox" name="checkbox3" id="checkbox3" />
-                Word of Mouth</div>
-                <label for="checkbox3"> 
-                <div align="left"></div>
-                </label></td>
-            </tr>
-            <tr>
-              <td align="right" valign="top" bgcolor="#93926C"><div align="right">
-                <label for="profession">Profession:</label>
-</div></td>
-              <td><label for="profession"></label>
-                
-                  <div align="left">
-                    <input type="text" name="profession" id="profession" />
-                  </div></td>
-            </tr>
-            <tr>
-              <td align="right" valign="top" bgcolor="#93926C"><div align="right">
-                <label for="comment">Comment or Question:</label>
-</div></td>
-              <td><label for="comment"></label>
-                
-                  <div align="left">
-                    <textarea name="comment" id="comment" cols="45" rows="5"></textarea>
-                  </div></td>
-            </tr>
-            <tr>
-              <td align="right" valign="top" bgcolor="#93926C">&nbsp;</td>
-              <td><label for="button"></label>
-                
-                  <div align="left">
-                    <input disabled="disabled" name="button" type="submit" id="button" value="Submit" />
-                  Or use email below</div></td>
-            </tr>
-          </table>
-          </form>        </td>
-        <td width="35">&nbsp;</td>
-      </tr>
-      <tr>
-        <td height="35" background="../Assets/Images/pics/bottom_left.gif">&nbsp;</td>
-        <td align="center" bgcolor="#CCCCCC"><a href="mailto:sales@corecaseworks.com" class="Bens_email">sales@corecaseworks.com</a></td>
-        <td align="center" bgcolor="#CCCCCC"><a href="mailto:support@corecaseworks.com" class="Bens_email">support@corecaseworks.com</a></td>
-        <td background="../Assets/Images/pics/bottom_right.gif">&nbsp;</td>
-      </tr>
-    </table>
     <p>&nbsp;</p>
     <table width="100%" border="0" cellspacing="0" cellpadding="0">
       <tr>
